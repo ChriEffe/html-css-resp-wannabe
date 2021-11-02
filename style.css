@@ -42,6 +42,10 @@
   width: 100%;
   margin: 0;
 }
+div>img  {
+  height: 100%;
+  width: 50%;
+}
 }
 
 /* BLOCCO STEPS */
