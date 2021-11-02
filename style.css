@@ -35,12 +35,12 @@
   float: none;
   width: 100%;
 }
+#lezioni .row h1  {
+  margin-top: 0;
+}
 .row  {
   width: 100%;
   margin: 0;
-}
-h1  {
-  margin-top: 0;
 }
 }
 
@@ -54,6 +54,15 @@ h1  {
 
 #steps {
   text-align: center;
+}
+
+@media screen and (max-width: 420px)  {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right  {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* BLOCCO PERCHE */
@@ -72,6 +81,12 @@ h1  {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+
+@media screen and (max-width:420px) {
+  #why  {
+    background-color: #f2f2cd;
+  }
 }
 
 /* COMMON */
